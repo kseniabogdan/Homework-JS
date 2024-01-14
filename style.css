@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    width: 900px;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.contactsList {
+    width: 450px;
+    min-height: 500px;
+    background-color: rgb(233, 255, 248);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.contact__block {
+    width: 100%;
+    background-color: rgb(238, 248, 149);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: rgb(5, 107, 99);
+    font-size: 18px;
+}
+
+.contact__btn {
+    width: 60px;
+    height: 25px;
+    margin: 3px 15px 3px 0;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    background-color: rgb(5, 107, 99);
+    border: none;
+    border-radius: 7px;
+
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(5, 107, 99);
+
+}
+
+.input__block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.input {
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid rgb(5, 107, 99);
+    border-radius: 15px;
+}
+
+.input::placeholder {
+    font-size: 18px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    background-color: rgb(5, 107, 99);
+    border: none;
+    border-radius: 15px;
+}
+
+.answer {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center; 
+    color: rgb(230, 83, 73);
+    margin-bottom: 30px;
+}
+
+.blockShow__edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgb(107, 83, 5);
+    background-color: rgb(241, 231, 196);
+    border-radius: 15px;
+
+}
+
+.blockEdit__name {
+    margin-top: 50px;
+
+}
